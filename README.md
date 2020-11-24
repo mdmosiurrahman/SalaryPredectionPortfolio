@@ -45,7 +45,7 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
 9.Identify correlation between all features respectively by using label encoding categorical features with the mean salary
 10.Set baseline model
    * Using the correlation martix, identified the highest correlated feature and use this to build a simple linear regression model to predict the salary, using negative mean squared error as the quality of an estimator and values closer to zero are better
-   * The baseline negative MSE error was 1367
+   * The baseline MSE error was 1367
 11. Hypothesize solutions
    * Multiple Linear Regression - includes more than one feature, which could improve the model
    * Random Forest Regressor - improves the accuracy by reducing overfitting problem and the variance in decision trees
