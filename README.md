@@ -28,10 +28,10 @@ test_features.csv: Similar to train_features.csv, each row represents metadata f
 Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the company identifier.
 
 ## Data Discovery Steps
-1.Import Libraries and set up directory where python interpreter access code files\
-2.Load Data\
-3.Examine and Get Insights on Data\
-4.The 3 input files each have 1 million rows.\
+1.Import Libraries and set up directory where python interpreter access code files
+2.Load Data
+3.Examine and Get Insights on Data
+4.The 3 input files each have 1 million rows. \
   * Merged train data (train_features + train_target) which has 1 million rows and 9 columns
   * Test Feature data has 1 million rows and 8 columns
   * Datasets have mixed data types (categorical and numeric)
@@ -39,14 +39,14 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
   * No duplicates in data
   * Datasets do not have null values
   * Check for invalid data - Dropped 5 rows of data with invalid Salary (salary less than or equal to 0)
-6.Explore data\
+6.Explore data
 7.Summarize Numerical and Categorical variables. Confirmed jobId is a unique identifier for the job postings\
 8.Review Correlation between each feature and the target variable using plots and feature counts as required\
 9.Identify correlation between all features respectively by using label encoding categorical features with the mean salary\
-10.Set baseline model\
+10.Set baseline model \
    * Using the correlation martix, identified the highest correlated feature and use this to build a simple linear regression model to predict the salary, using negative mean squared error as the quality of an estimator and values closer to zero are better
    * The baseline MSE error was 1367
-11. Hypothesize solutions\
+11. Hypothesize solutions \
    * Multiple Linear Regression - includes more than one feature, which could improve the model
    * Random Forest Regressor - improves the accuracy by reducing overfitting problem and the variance in decision trees
    * GradientBoostingRegressor - data contains weakly correlated features, gradient boosting regression combines weak learners into a single strong learner, which          could be an improvement to the baseline model
