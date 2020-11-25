@@ -110,10 +110,15 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
 * Very little correlation with company id and industry
 
     
+## Data preparation for Machine Learning Model
+ * Feature Engineering: Creating one hotcoding/dummies for categorical variables-'jobType','Degree','Major','Industry' also scale data for numerical variables- yearsExperience and milesfromMetropolis.
 
 
 ## Model Development
-
++-------------+--------+
+|                       |
+|                       |
++--------------+--------+
 ## Deploy Solution
 
 
