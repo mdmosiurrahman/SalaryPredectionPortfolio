@@ -116,7 +116,7 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
 
 ## Model Development
 
-I have developed the following 3 models and selected the best model. I chose mean square error as performance metric. Goal of the is to find the best model that has mean square below 360.
+I have developed the following 3 models and selected the best model. I chose mean square error as performance metric. Goal of the project was to find the best model that has mean square below 360.
 
 Model             | MSE
 ------------------|--------------
