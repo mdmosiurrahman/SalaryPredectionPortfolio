@@ -88,6 +88,8 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
   -> From this, there is a positve linear relationship between salaries and number of years experience one has
   -> Therefore the more experience you have, the higher the salary
   
+  
+  
   -> From this, there is a negative linear relationship between salaries and number of miles from Metropolis
   -> Therefore the further you live from Metropolis, the lower the salary you would recieve
   
