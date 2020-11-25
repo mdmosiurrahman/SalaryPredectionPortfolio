@@ -131,6 +131,6 @@ Gradient Boosting | 359
 
 ![Feature_importance](https://user-images.githubusercontent.com/32566240/100261230-bb379700-2f4a-11eb-9a84-0db71bd832ad.png)
 
-* The most important feature to predict salary is Job Type,MilesFromMetropolis and YearsExperience
-* The least import feature to predict salary is Degree Type,Major Type
+* The most important feature to predict salary is <b>Job Type, MilesFromMetropolis</b> and <b>YearsExperience</b>
+* The least import feature to predict salary is <b>Degree Type,Major Type</b>
 
