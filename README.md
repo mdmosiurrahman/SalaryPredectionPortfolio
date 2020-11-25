@@ -53,19 +53,24 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
    
 ## Feature Summary
   * Job Type 
+  
   ![jobType](https://user-images.githubusercontent.com/32566240/100196598-61f34780-2ef9-11eb-8e3f-08061f6ecb4e.png)
   
   * Degree
+  
   ![degree](https://user-images.githubusercontent.com/32566240/100196718-92d37c80-2ef9-11eb-9557-26fc80724a4f.png)
   
   * Major
+  
   ![Major](https://user-images.githubusercontent.com/32566240/100196806-b4346880-2ef9-11eb-9da6-661ce9392616.png)
   
   * Industry
+  
  ![industry](https://user-images.githubusercontent.com/32566240/100197793-248fb980-2efb-11eb-8f89-0115c00d0f7d.png)
 
   
   * Years of Experience and Miles from metropolis
+  
   ![Experience_milesfromc_city](https://user-images.githubusercontent.com/32566240/100196992-fbbaf480-2ef9-11eb-8d88-3463dbfa7be6.png)
   
   * Salary Target Variable
@@ -73,6 +78,7 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
   ![salary_target_variable](https://user-images.githubusercontent.com/32566240/100197415-96b3ce80-2efa-11eb-8a71-1f48d07c2e46.png)
 
 ## Correlation Matrix
+
 ![correlation_matrix](https://user-images.githubusercontent.com/32566240/100197535-ba771480-2efa-11eb-959b-1658872f2f54.png)
 
 
