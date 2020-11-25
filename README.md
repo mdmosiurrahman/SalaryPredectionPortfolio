@@ -102,11 +102,11 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
 ## Correlation Matrix
 
 ![correlation_matrix](https://user-images.githubusercontent.com/32566240/100197535-ba771480-2efa-11eb-959b-1658872f2f54.png)
+* YearsExperience and salar has strong positive correlation
+* Degree and major also have strong correlation
+* Negative correlation with miles from Metropolis, major, degree and job type
+* Very little correlation with job id, company id and industry
 
-    * YearsExperience and salar has strong positive correlation
-    * Degree and major also have strong correlation
-    * Negative correlation with miles from Metropolis, major, degree and job type
-    * Very little correlation with job id, company id and industry
     
 
 
