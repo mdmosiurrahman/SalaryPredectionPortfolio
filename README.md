@@ -28,22 +28,22 @@ test_features.csv: Similar to train_features.csv, each row represents metadata f
 Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the company identifier.
 
 ## Data Discovery Steps
-1.Import Libraries and set up directory where python interpreter access code files\
-2.Load Data\
-3.Examine and Get Insights on Data\
-4.The 3 input files each have 1 million rows.\ 
+1. Import Libraries and set up directory where python interpreter access code files\
+2. Load Data\
+3. Examine and Get Insights on Data\
+4. The 3 input files each have 1 million rows\ 
   * Merged train data (train_features + train_target) which has 1 million rows and 9 columns
   * Test Feature data has 1 million rows and 8 columns
   * Datasets have mixed data types (categorical and numeric)
-5.Clean data.\ 
+5. Clean data\ 
   * No duplicates in data
   * Datasets do not have null values
   * Check for invalid data - Dropped 5 rows of data with invalid Salary (salary less than or equal to 0)
-6.Explore data\
-7.Summarize Numerical and Categorical variables. Confirmed jobId is a unique identifier for the job postings\
-8.Review Correlation between each feature and the target variable using plots and feature counts as required\
-9.Identify correlation between all features respectively by using label encoding categorical features with the mean salary\
-10.Set baseline model \
+6. Explore data\
+7. Summarize Numerical and Categorical variables. Confirmed jobId is a unique identifier for the job postings\
+8. Review Correlation between each feature and the target variable using plots and feature counts as required\
+9. Identify correlation between all features respectively by using label encoding categorical features with the mean salary\
+10. Set baseline model \
    * Using the correlation martix, identified the highest correlated feature and use this to build a simple linear regression model to predict the salary, using negative mean squared error as the quality of an estimator and values closer to zero are better
    * The baseline MSE error was 1367
 11. Hypothesize solutions \
@@ -116,6 +116,8 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
 
 ## Model Development
 
+I have developed the following 3 models and selected the best model. I chose mean square error as performance metric. Goal of the is to find the best model that has mean square below 360.
+
 Model             | MSE
 ------------------|--------------
 Linear Regression | 384
@@ -124,5 +126,11 @@ Gradient Boosting | 359
 
 
 ## Deploy Solution
+1. Create a csv file with the predicitons on the testing dataset\
+2. Identify the most influencial feature
 
+![Feature_importance](https://user-images.githubusercontent.com/32566240/100261230-bb379700-2f4a-11eb-9a84-0db71bd832ad.png)
+
+* The most important feature to predict salary is Job Type,MilesFromMetropolis and YearsExperience
+* The least import feature to predict salary is Degree Type,Major Type
 
