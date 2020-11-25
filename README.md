@@ -65,7 +65,7 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
   ![industry](https://user-images.githubusercontent.com/32566240/100196876-d0d0a080-2ef9-11eb-9be4-dce80cc46352.png)
   
   * Years of Experience and Miles from metropolis
-  ![Experience_milesfromc_city](https://user-images.githubusercontent.com/32566240/100196992-fbbaf480-2ef9-11eb-8d88-    3463dbfa7be6.png)
+  ![Experience_milesfromc_city](https://user-images.githubusercontent.com/32566240/100196992-fbbaf480-2ef9-11eb-8d88-3463dbfa7be6.png)
   
   * Salary Target Variable
   ![salary_target_variable](https://user-images.githubusercontent.com/32566240/100197415-96b3ce80-2efa-11eb-8a71-1f48d07c2e46.png)
