@@ -115,10 +115,10 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
 
 
 ## Model Development
-+-------------+--------+
-|                       |
-|                       |
-+--------------+--------+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 ## Deploy Solution
 
 
