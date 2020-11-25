@@ -31,11 +31,11 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
 1.Import Libraries and set up directory where python interpreter access code files\
 2.Load Data\
 3.Examine and Get Insights on Data\
-4.The 3 input files each have 1 million rows. 
+4.The 3 input files each have 1 million rows.\ 
   * Merged train data (train_features + train_target) which has 1 million rows and 9 columns
   * Test Feature data has 1 million rows and 8 columns
   * Datasets have mixed data types (categorical and numeric)
-5.Clean data \ 
+5.Clean data.\ 
   * No duplicates in data
   * Datasets do not have null values
   * Check for invalid data - Dropped 5 rows of data with invalid Salary (salary less than or equal to 0)
