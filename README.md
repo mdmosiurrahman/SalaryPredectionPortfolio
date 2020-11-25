@@ -55,33 +55,59 @@ Every row has a unique JOB-ID, there is a column and COMPANY-ID which is the com
   * Job Type 
   
   ![jobType](https://user-images.githubusercontent.com/32566240/100196598-61f34780-2ef9-11eb-8e3f-08061f6ecb4e.png)
-    ### From the boxplot, Janitors generally have lower salaries compared to the other job types and CEO/CTO have higher salaries compared to other job types
-    ### From this, there is a relationship between salaries and job types
+  
+    -> From the boxplot, Janitors generally have lower salaries compared to the other job types and CEO/CTO have higher salaries compared to other job types
+    -> From this, there is a relationship between salaries and job types
   
   * Degree
   
   ![degree](https://user-images.githubusercontent.com/32566240/100196718-92d37c80-2ef9-11eb-9557-26fc80724a4f.png)
   
+  -> From the boxplot, people with no degrees and in high school generally have lower salaries compared to the other degree type
+  -> From this, there is a relationship between salaries and degree types
+  
   * Major
   
   ![Major](https://user-images.githubusercontent.com/32566240/100196806-b4346880-2ef9-11eb-9da6-661ce9392616.png)
   
+  -> From the boxplot, people who have 'none' major generally have lower salaries compared to the other majors
+  -> From this, there is a relationship between salaries and degree types
+  
   * Industry
   
  ![industry](https://user-images.githubusercontent.com/32566240/100197793-248fb980-2efb-11eb-8f89-0115c00d0f7d.png)
+ 
+ -> From the boxplot, people with who work in the finance and oil industries generally have higher salaries compared to the other degree types
+ -> From this, there is a relationship between salaries and industry
 
   
   * Years of Experience and Miles from metropolis
   
   ![Experience_milesfromc_city](https://user-images.githubusercontent.com/32566240/100196992-fbbaf480-2ef9-11eb-8d88-3463dbfa7be6.png)
   
+  -> From this, there is a positve linear relationship between salaries and number of years experience one has
+  -> Therefore the more experience you have, the higher the salary
+  
+  -> From this, there is a negative linear relationship between salaries and number of miles from Metropolis
+  -> Therefore the further you live from Metropolis, the lower the salary you would recieve
+  
   * Salary Target Variable
   
   ![salary_target_variable](https://user-images.githubusercontent.com/32566240/100197415-96b3ce80-2efa-11eb-8a71-1f48d07c2e46.png)
+  
+   -> From the boxplot and histogram we see that most values lie between 70k to 150k
+   -> The salary histogram plot has right skewness
+  
 
 ## Correlation Matrix
 
 ![correlation_matrix](https://user-images.githubusercontent.com/32566240/100197535-ba771480-2efa-11eb-959b-1658872f2f54.png)
+
+    * YearsExperience and salar has strong positive correlation
+    * Degree and major also have strong correlation
+    * Negative correlation with miles from Metropolis, major, degree and job type
+    * Very little correlation with job id, company id and industry
+    
 
 
 ## Model Development
